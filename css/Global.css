@@ -1,0 +1,160 @@
+/* Global */
+
+/* colors */
+
+/* Primary Colors
+Main Accent: #6C63FF (Soft Indigo for primary buttons and highlights)
+Background: #F7F8FC (Light Off-White for a clean and minimal background)
+Secondary Colors
+Secondary Accent: #FF6F61 (Warm Coral for notifications or special highlights)
+Card Background: #FFFFFF (Classic White for cards and posts to ensure readability)
+Borders and Shadows: #E0E4EC (Subtle Gray for dividers and shadows)
+Text Colors
+Primary Text: #2C3E50 (Deep Blue-Gray for clear, readable text)
+Secondary Text: #7A869A (Muted Gray for less prominent text like timestamps or hints)
+Neutral Colors
+Icons and Action Links: #4CAF50 (Vivid Green for actions like "Add Friend" or "Share")
+Error/Alert: #E53935 (Bright Red for warnings and error messages)
+Hover States
+Button Hover: #5848C2 (Slightly darker version of the primary accent)
+Link Hover: #FF8A65 (Lighter Coral for interactive links)*/
+
+/* Typograohy */
+
+/* Typography Guide
+
+1. Headings (Titles)
+
+Font Family: Poppins (Google Font, modern and clean)
+
+Weights:
+H1: 700 (Bold)
+H2: 600 (Semi-Bold)
+H3-H6: 500 (Medium)
+Sizes:
+H1: 32px
+H2: 28px
+H3: 24px
+H4: 20px
+H5: 18px
+H6: 16px
+Line Height: 1.4
+
+2. Body Text
+
+Font Family: Roboto (Google Font, clean and readable)
+Weights: 400 (Regular), 500 (Medium) for emphasis
+Size: 14px - 16px
+Line Height: 1.6
+
+3. Buttons and Links
+
+Font Family: Poppins
+Weight: 500 (Medium) or 600 (Semi-Bold) for emphasis
+Size: 14px
+Letter Spacing: 0.5px for uppercase or all-caps buttons
+
+4. Captions/Small Text
+
+Font Family: Roboto
+Weight: 400 (Regular)
+Size: 12px - 14px
+Line Height: 1.4
+
+5. Inputs and Forms
+
+Font Family: Roboto
+Weight: 400 (Regular)
+Size: 16px
+Placeholder Text: #7A869A (Muted Gray)
+Font Pairing Summary
+
+Poppins: Headings, buttons, and key UI text for a modern look.
+Roboto: Body text, small captions, and input fields for readability and consistency.
+Additional Styling Notes
+Headings and Titles: Use #2C3E50 (Deep Blue-Gray) for text to create strong contrast.
+Body Text: Use #7A869A (Muted Gray) for secondary and less prominent content.
+Hover States: Slightly darken or lighten the text color when hovering over interactive elements. */
+
+/*  spacing and margins, paddings */
+
+/* 1. Line Height
+Headings (H1-H6): 1.4 (Provides good vertical spacing for titles)
+Body Text: 1.6 (Optimal for readability, especially for paragraphs)
+Small Text/Captions: 1.4 (Tighter spacing to conserve space)
+2. Letter Spacing
+Headings: 0px (Default, no additional spacing)
+Body Text: 0px (Default, clean and standard)
+Buttons and All-Caps Text: 0.5px (Slightly spaced for clarity)
+Small Text: 0.2px (Minimal spacing for subtle emphasis)
+3. Margins (Spacing Between Elements)
+Between Sections: 24px - 32px (Generous spacing to separate content blocks)
+Between Heading and Paragraphs: 16px (Clear distinction but compact)
+Between List Items: 8px - 12px (Comfortable spacing for grouped items)
+4. Padding (Inside Element Spacing)
+Cards/Containers:
+Top/Bottom: 16px
+Left/Right: 24px
+Buttons:
+Vertical: 8px - 12px
+Horizontal: 16px - 24px
+Input Fields:
+Vertical: 12px
+Horizontal: 16px
+Responsive Adjustments
+For mobile designs, slightly reduce the spacing:
+Margins Between Sections: 16px - 24px
+Padding for Cards/Containers: 12px - 16px
+This setup ensures your UI is visually balanced, easy to read, 
+and scalable across devices. Let me know if you’d like a specific breakdown for mobile, tablet, or desktop! */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* {10/16}/100 px - 62.5% */
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f7f8fc;
+  font-family: "roboto", sans-serif;
+}
+
+/* Reusabale css */
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.gap-2-4 {
+  gap: 2.4rem;
+}
+.gap-3-2 {
+  gap: 3.2rem;
+}
+.gap-4-6 {
+  gap: 4.6rem;
+}
+.gap-5-2 {
+  gap: 5.2rem;
+}
+
+.mt-3 {
+  margin-bottom: 4rem;
+}
+.mt-2 {
+  margin-bottom: 2rem;
+}

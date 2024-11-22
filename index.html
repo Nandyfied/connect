@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/Global.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <title>Connect - A facebook UI clone</title>
+    <script
+      src="https://kit.fontawesome.com/2c209c1a7d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="flex space-between flex-center">
+      <div class="nav-left flex flex-center gap-2">
+        <a href="#"
+          ><img src="images/logo.svg  " alt="logo" class="site-logo"
+        /></a>
+      </div>
+      <div class="nav-end flex flex-center gap-2-4">
+        <div class="search-bar">
+          <img src="images/search.png" alt="Search image" class="search-img" />
+          <input
+            type="text"
+            placeholder="Search for friends, groups and more..."
+          />
+        </div>
+        <ul class="flex gap-2-4 nav-icons">
+          <li>
+            <a href="#">
+              <img src="images/notifications.svg" class="nav-google-icons"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/message.svg" class="nav-google-icons"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="images/video.png"
+                class="video-google-icons nav-google-icons"
+            /></a>
+          </li>
+        </ul>
+        <div class="online">
+          <img
+            src="images/profile-pic.png"
+            alt="profile-picture"
+            class="nav-profile-pic"
+          />
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main body -->
+
+    <div class="container layout-container">
+      <!-- Left side bar -->
+      <div class="left-sidebar">
+        <div class="imp-links">
+          <a href="#"><img src="images/news.png" /><span>Latest News</span></a>
+          <a href="#"><img src="images/friends.png" /><span>Friends</span></a>
+          <a href="#"><img src="images/group.png" /><span>Gropus</span></a>
+          <a href="#"
+            ><img src="images/marketplace.png  " /><span>Marketplace</span></a
+          >
+          <a href="#"><img src="images/watch.png  " /><span>Watch</span></a>
+          <a href="#">see more</a>
+        </div>
+
+        <!-- shortcut links -->
+
+        <div class="shortcut-links">
+          <p>Your shortcuts</p>
+          <a href="#"
+            ><img src="images/shortcut-1.png" /><span>Web Developers</span></a
+          >
+          <a href="#"
+            ><img src="images/shortcut-2.png" /><span>UI/UX Designers</span></a
+          >
+          <a href="#"
+            ><img src="images/shortcut-3.png" /><span
+              >Graphic Designers</span
+            ></a
+          >
+          <a href="#"
+            ><img src="images/shortcut-4.png  " /><span>SEO Experts</span></a
+          >
+        </div>
+      </div>
+      <!-- Main content -->
+      <div class="main-content"></div>
+      <!-- Right sidebar -->
+      <div class="right-sidebar">
+        <!-- Events -->
+
+        <div class="events mt-3">
+          <div class="title">
+            <h4>Events</h4>
+            <a href="#">See All</a>
+          </div>
+          <div class="event">
+            <div class="left-event">
+              <h3>18</h3>
+              <span>March</span>
+            </div>
+            <div class="right-event">
+              <h4>Hackathon</h4>
+              <p>
+                <i class="fa-solid fa-location-dot"></i> Guindy national park
+              </p>
+              <a href="#">More Info</a>
+            </div>
+          </div>
+          <div class="event">
+            <div class="left-event">
+              <h3>29</h3>
+              <span>April</span>
+            </div>
+            <div class="right-event">
+              <h4>SEO conference</h4>
+              <p><i class="fa-solid fa-location-dot"></i> Adayar</p>
+              <a href="#">More Info</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- advertisemt -->
+        <div class="advertisement mt-3">
+          <div class="title">
+            <h4>Advertisement</h4>
+            <a href="#">Close</a>
+          </div>
+          <img src="images/advertisement.png" class="ads-image" />
+        </div>
+
+        <!-- Online list -->
+        <div class="chat mt-3">
+          <div class="title">
+            <h4>Friends</h4>
+            <a href="#">Hide</a>
+          </div>
+          <div class="online-list">
+            <div class="friends">
+              <div class="online">
+                <img src="images/member-1.png" />
+              </div>
+              <p>Maria</p>
+            </div>
+            <div class="friends">
+              <div class="online">
+                <img src="images/member-2.png" />
+              </div>
+              <p>Alan joshwa</p>
+            </div>
+            <div class="friends">
+              <div class="online">
+                <img src="images/member-3.png" />
+              </div>
+              <p>Anna martin</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

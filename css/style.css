@@ -1,0 +1,274 @@
+/* navgation bar */
+
+nav {
+  background-color: #6c63ff;
+  padding: 1.2rem 3.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+nav .site-logo {
+  width: 14rem;
+}
+
+/* nav ul {
+  margin-right: 20rem;
+} */
+nav ul li {
+  list-style: none;
+}
+
+.nav-icons {
+  margin-left: 2.4rem;
+}
+
+.nav-google-icons {
+  width: 2.8rem;
+}
+
+.search-bar {
+  background-color: #efefef;
+  width: 35rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+
+.search-img {
+  width: 1.8rem;
+}
+
+.search-bar input {
+  width: 100%;
+  background-color: transparent;
+  padding: 1rem;
+  outline: none;
+  border: 0;
+}
+
+.search-img {
+  width: 4rem;
+  padding: 0.8rem;
+}
+
+.search-bar input {
+  width: 100%;
+}
+
+.nav-profile-pic {
+  width: 4rem;
+  border-radius: 50%;
+}
+
+.online {
+  position: relative;
+  display: inline-block;
+}
+
+.online::after {
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 0.1rem solid #fff;
+  background-color: #07bc3a;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* Main page  layout*/
+
+.layout-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem;
+}
+
+.left-sidebar {
+  flex-basis: 25%;
+  position: sticky;
+  align-self: flex-start;
+  top: 0;
+}
+.right-sidebar {
+  flex-basis: 25%;
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+  background-color: #fff;
+  border-radius: 0.4rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.main-content {
+  flex-basis: 47%;
+}
+
+/* left sidebar */
+
+.imp-links {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1.2rem;
+  box-shadow: 0.2rem 0.4rem 1.6rem #ccc;
+}
+.imp-links a,
+.shortcut-links a {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  width: fit-content;
+  margin-bottom: 2.8rem;
+  color: #626262;
+}
+
+.imp-links a img,
+.shortcut-links a img {
+  width: 3.2rem;
+  margin-right: 1.5rem;
+}
+
+.imp-links a span,
+.shortcut-links a span {
+  font-size: 1.6rem;
+}
+.imp-links a:last-child {
+  color: #1876f2;
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.shortcut-links {
+  /* background-color: #fff; */
+  padding: 2rem;
+  border-radius: 1.2rem;
+  box-shadow: 0.2rem 0.4rem 1.6rem #ccc;
+}
+.shortcut-links {
+  margin-top: 2rem;
+}
+
+.shortcut-links p {
+  font-size: 2rem;
+  text-decoration: underline;
+  margin-bottom: 1.8rem;
+}
+
+.shortcut-links a img {
+  border-radius: 1.8rem;
+}
+
+.shortcut-links a:last-child {
+  margin: 0;
+}
+
+/* Right sidebar */
+
+/* events */
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.title h4 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.title a {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.event {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.left-event {
+  text-align: center;
+  font-size: 1.4rem;
+  height: 7.5rem;
+  width: 7.5rem;
+  padding: 1rem;
+  background-color: transparent;
+  box-shadow: 0.2rem 0.4rem 1.2rem rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  margin-right: 2rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.left-event h3 {
+  font-size: 2.6rem;
+}
+
+.left-event span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: blue;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  color: #fff;
+  width: 100%;
+  padding: 0.4rem 0;
+}
+
+.right-event {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.right-event h4 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.right-event p {
+  font-size: 1.4rem;
+}
+
+.right-event a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+/* Advertisement  */
+
+.ads-image {
+  width: 100%;
+  border-radius: 2rem;
+}
+
+/* Online list */
+
+.friends {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.friends .online img {
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.friends p {
+  font-size: 1.6rem;
+}
+
+.friends .online::after {
+  top: unset;
+  bottom: 0.5rem;
+}

@@ -1,0 +1,8 @@
+@media (max-width: 425px) {
+  .left-sidebar {
+    display: none;
+  }
+  .right-sidebar {
+    display: none;
+  }
+}
