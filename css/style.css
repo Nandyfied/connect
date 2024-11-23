@@ -479,3 +479,12 @@ nav ul li {
 .post-activity span {
   font-size: 1.6rem;
 }
+
+/* Footer */
+
+.footer-container p {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+}
