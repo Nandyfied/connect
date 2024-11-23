@@ -87,13 +87,13 @@ nav ul li {
 }
 
 .left-sidebar {
-  flex-basis: 25%;
+  flex-basis: 18%;
   position: sticky;
   align-self: flex-start;
   top: 0;
 }
 .right-sidebar {
-  flex-basis: 25%;
+  flex-basis: 20%;
   position: sticky;
   top: 0;
   align-self: flex-start;
@@ -104,7 +104,7 @@ nav ul li {
 }
 
 .main-content {
-  flex-basis: 47%;
+  flex-basis: 58%;
 }
 
 /* left sidebar */
@@ -271,4 +271,169 @@ nav ul li {
 .friends .online::after {
   top: unset;
   bottom: 0.5rem;
+}
+
+/* Main content */
+.story-highlights {
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.story {
+  position: relative;
+  flex-basis: 22%;
+  aspect-ratio: 9 / 16;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../images/status-1.png);
+  background-position: center;
+  object-fit: cover;
+  border-radius: 2rem;
+  background-image: linear-gradient(to left, rgb(0, 0, 0, 0.5));
+}
+
+.upload {
+  padding: 0.8rem;
+  background-color: #1876f2;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 3rem;
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+  bottom: 6rem;
+  border: 0.2rem solid #fff;
+  font-weight: 100;
+}
+
+.story p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 2rem;
+  position: absolute;
+  bottom: 3rem;
+  width: 100%;
+  text-align: center;
+}
+
+.post-user-img {
+  width: 6rem;
+  border-radius: 50%;
+  border: 0.3rem solid #0000ff;
+  padding: 0.2rem;
+}
+
+.story-1 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../images/status-2.png);
+}
+.story-2 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../images/status-3.png);
+}
+.story-3 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../images/status-4.png);
+}
+
+/* write post container */
+
+.write-post-container {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 3rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile img {
+  width: 6rem;
+  border-radius: 50%;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.profile span {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #626262;
+}
+.profile p {
+  font-size: 1.4rem;
+}
+
+.write-post-input-container {
+  padding-right: 3rem;
+  padding-left: 5rem;
+}
+.write-post-input-container textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 2rem;
+  border-bottom: 0.1rem solid #ccc;
+  resize: none;
+}
+
+.write post-input-container textarea::placeholder {
+  font-size: 1.4rem;
+}
+
+.write-options {
+  margin-left: 5rem;
+  margin-top: 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 2.6rem;
+}
+.write-options a {
+  font-size: 1.4rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: #777;
+  margin-left: 1rem;
+}
+
+.write-options img {
+  width: 1.8rem;
+}
+
+.post-container {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 3rem;
+  margin-top: 2rem;
+}
+
+.post-container p {
+  opacity: 0.6;
 }
