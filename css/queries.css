@@ -1,8 +1,71 @@
-@media (max-width: 425px) {
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+@media (max-width: 62.5em) {
+  html {
+    font-size: 50%;
+  }
+  .left-sidebar {
+    flex-basis: 23%;
+  }
+  .right-sidebar {
+    flex-basis: 23%;
+  }
+
+  .main-content {
+    flex-basis: 50%;
+  }
+}
+
+@media (max-width: 54.5em) {
+  html {
+    font-size: 43.75%;
+  }
+  .main-content {
+    flex-basis: 68%;
+  }
+  .left-sidebar {
+    display: none;
+  }
+  .right-sidebar {
+    flex-basis: 27%;
+  }
+}
+@media (max-width: 40.62em) {
+  html {
+    font-size: 37.5%;
+  }
+  .main-content {
+    flex-basis: 68%;
+  }
+  .left-sidebar {
+    display: none;
+  }
+  .right-sidebar {
+    flex-basis: 27%;
+  }
+}
+@media (max-width: 36.25em) {
+  html {
+    font-size: 45.5%;
+  }
+  .main-content {
+    flex-basis: 100%;
+  }
   .left-sidebar {
     display: none;
   }
   .right-sidebar {
     display: none;
+  }
+  .search-bar {
+    display: none;
+  }
+}
+@media (max-width: 25em) {
+  html {
+    font-size: 31.25%;
   }
 }
